@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SURVEY</title>
+</head>
+<body>
+    <h1>Survey</h1>
+
+    <form action="http://httpbin.org/post" method="POST">
+        <fieldset>
+            <legend>TECHNOLOGIES</legend>
+                <div><label for="">
+                    <input type="checkbox" name="HTML">
+                    HTML
+                </label></div>
+                <div><label for="">
+                    <input type="checkbox" name="CSS">
+                    CSS
+                </label></div>
+                <div><label for="">
+                    <input type="checkbox" name="JavaScript">
+                    JavaScript
+                </label></div>
+                <div><label for="">
+                    <input type="checkbox" name="JAVA">
+                    JAVA
+                </label></div>
+                <div><label for="">
+                    <input type="checkbox" name="NodeJS">
+                    NodeJS
+                </label></div>
+        </fieldset>
+        <fieldset>
+            <legend>PERSONAL DATA</legend>
+            <div><label for="">
+                <legend>Country</legend>
+                <select name="Country" id="contry">
+                    <option value="Brazil">Brazil</option>
+                    <option value="USA">USA</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Canadá">Canadá</option>
+                </select>
+            </label></div>
+
+            <div><label for="">
+                <input type="radio" name="genero" value="male">
+                    male
+            </label></div>
+            <div>
+                <input type="radio" name="genero" value="female">
+                female
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
