@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SURVEY</title>
+    <title>Survey</title>
 </head>
 <body>
     <h1>Survey</h1>
@@ -12,24 +12,24 @@
     <form action="http://httpbin.org/post" method="POST">
         <fieldset>
             <legend>TECHNOLOGIES</legend>
-                <div><label for="">
-                    <input type="checkbox" name="HTML">
+                <div><label for="html">
+                    <input type="checkbox" id="html" name="technologies" value="HTML">
                     HTML
                 </label></div>
-                <div><label for="">
-                    <input type="checkbox" name="CSS">
+                <div><label for="css">
+                    <input type="checkbox" id="css" name="technologies" value="CSS">
                     CSS
                 </label></div>
-                <div><label for="">
-                    <input type="checkbox" name="JavaScript">
+                <div><label for="js">
+                    <input type="checkbox" id="js" name="technologies" value="JavaScript">
                     JavaScript
                 </label></div>
-                <div><label for="">
-                    <input type="checkbox" name="JAVA">
+                <div><label for="java">
+                    <input type="checkbox" id="java" name="technologies" value="Java">
                     JAVA
                 </label></div>
                 <div><label for="">
-                    <input type="checkbox" name="NodeJS">
+                    <input type="checkbox" id="nodejs" name="technologies" value="NodeJS">
                     NodeJS
                 </label></div>
         </fieldset>
@@ -54,6 +54,7 @@
                 female
             </div>
         </fieldset>
+        <input type="submit" value="send">
     </form>
 </body>
 </html>
